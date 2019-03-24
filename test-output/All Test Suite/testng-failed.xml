@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
-  <test thread-count="5" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo(failed)">
+  <test thread-count="5" name="/Users/liuzhe/Desktop/peixun/unittest/unittest/XunitDemo(failed)">
     <classes>
-      <class name="TestXunit.ShoppingTest">
+      <class name="TestLogin.ShoppingBuyTest">
+        <parameter name="name" value="张三"/>
+        <parameter name="expect" value="欢迎张三"/>
+        <parameter name="password" value="123456"/>
         <methods>
-          <include name="testGetPrice" invocation-numbers="1"/>
-          <include name="beforeMethod"/>
-          <include name="AfterMethod"/>
+          <include name="getPrice"/>
         </methods>
-      </class> <!-- TestXunit.ShoppingTest -->
+      </class> <!-- TestLogin.ShoppingBuyTest -->
     </classes>
-  </test> <!-- /Users/qitmac000442/Project/projects/xunit/testng/XunitDemo(failed) -->
+  </test> <!-- /Users/liuzhe/Desktop/peixun/unittest/unittest/XunitDemo(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
